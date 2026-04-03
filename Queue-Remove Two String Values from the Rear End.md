@@ -21,8 +21,56 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
-Add Code Here
+
+q = []
+
+n = int(input("Enter number of strings: "))
+
+
+for i in range(n):
+
+    val = input("Enter string: ")
+    
+    q.append(val)
+
+if len(q) >= 2:
+
+    q.pop()
+    
+    q.pop()
+    
+else:
+
+    print("Not enough elements to remove")
+
+print("Updated list after removing last two elements:")
+
+print(q)
+
+
 
 ### Output:
+Enter number of strings: 5
+
+Enter string: apple
+
+Enter string: banana
+
+Enter string: mango
+
+Enter string: orange
+
+Enter string: grapes
+
+Updated list after removing last two elements:
+
+['apple', 'banana', 'mango']
 
 ## Result:
+The program successfully:
+
+Accepts multiple string inputs from the user
+
+Removes the last two elements (rear end) of the list
+
+Displays the updated list correctly
