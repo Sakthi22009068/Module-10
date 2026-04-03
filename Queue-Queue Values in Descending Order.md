@@ -23,6 +23,56 @@ To write a Python program to:
 
 ## 🧪 Program: 
 
+q = []
+
+
+n = int(input("Enter number of elements: "))
+
+
+for i in range(n):
+
+    val = int(input("Enter value: "))
+    
+    q.append(val)
+
+if len(q) >= 2:
+
+    q.pop(0)
+    
+    q.pop(0)
+    
+else:
+
+    print("Not enough elements to dequeue twice")
+
+q.sort(reverse=True)
+
+print("Queue after removing first two elements and sorting:")
+
+print(q)
+
 ### Output:
+Enter number of elements: 5
+
+Enter value: 10
+
+Enter value: 25
+
+Enter value: 5
+
+Enter value: 30
+
+Enter value: 15
+
+Queue after removing first two elements and sorting:
+
+[30, 15, 5]
 
 ## Result:
+The program successfully:
+
+Accepts user input into a queue (list)
+
+Removes the first two elements using FIFO principle
+
+Displays the remaining elements in descending order
