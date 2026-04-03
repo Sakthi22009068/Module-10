@@ -48,18 +48,30 @@ print("Reversed Stack:", reverse)
 
 ## 🧪 Sample Input and Output
 Input:
+
 Enter number of elements: 5
+
 Enter element 1: 10
+
 Enter element 2: 20
+
 Enter element 3: 30
+
 Enter element 4: 40
+
 Enter element 5: 50
+
 output:
+
 Original Stack: [10, 20, 30, 40, 50]
+
 Reversed Stack: [50, 40, 30, 20, 10]
+
 ## Result
 The program successfully:
 
 Uses a stack (list) to store elements
+
 Applies push (append) and pop (pop) operations
+
 Reverses the stack values correctly
